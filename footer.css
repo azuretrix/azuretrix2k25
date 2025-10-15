@@ -1,0 +1,186 @@
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 0;
+    text-align: left;
+   
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+   
+}
+
+.logo-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large(40px);
+    text-align: left;
+}
+
+.footer-section {
+    padding: 0 20px;
+    min-width: 200px;
+}
+
+.footer-section-about img{
+    margin-top: -20px;
+    width: 150px;
+    height: auto;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #bbb;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.logo-text span {
+    color: #e91e63;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+.links ul li a:hover {
+    color: #fff;
+}
+
+.contact h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: left;
+    font-weight: 00;
+}
+
+
+.socials h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.socials a {
+    margin-right: 10px;
+    color: #bbb;
+    display: inline-block;
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+    transition: filter 0.3s;
+}
+
+.socials img:hover {
+    filter: brightness(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    margin-top: 10px;
+}
+
+.quote{
+    position: relative;
+    left: -20px;
+}
+
+@media (max-width: 480px) {
+
+    .faq-container h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+       
+    }
+
+    .logo-text {
+        font-size: large;
+        text-align: center;
+    }
+
+    .logo-text span {
+        font-size: 40px;
+    }
+
+    .footer-section {
+        padding: 5px;
+    }
+
+    .footer-section h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .footer-section p,
+    .footer-section a {
+        font-size: 20px;
+    }
+
+    .footer-section .phone-no{
+        justify-content: center;
+    }
+
+    .contact p {
+        font-size: larger;
+        text-align: center;
+    }
+
+    .socials{
+        margin-top: -30px;
+    }
+
+    .socials img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .quote {
+        left: 0;
+    }
+
+}

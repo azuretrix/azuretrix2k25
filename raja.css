@@ -1,0 +1,28 @@
+.like-button .heart-icon {
+    height: 80px;
+    width: 100px;
+    background: url("assets/heart.png");
+   
+
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  .like-button .heart-icon.liked {
+    animation: like-anim 0.7s steps(28) forwards;
+  }
+  
+  @keyframes like-anim {
+    to {
+      background-position: right;
+    }
+  }
+  
+ 
+  
+  .like-button {
+    display: flex;
+    align-items: center;
+  
+  }
+  

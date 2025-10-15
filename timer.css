@@ -1,0 +1,94 @@
+
+.event-h2{
+    color: white;
+    font-family: "Timmana", sans-serif;
+    letter-spacing: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+   
+  }
+
+@media (max-width: 480px) {
+  
+    .event-h2{
+      margin-top: -50px;
+      text-align: center;
+      align-items: center;
+    }
+}
+
+
+body {
+    text-align: center;
+    
+    font-family: sans-serif;
+    
+}
+
+/* Styling for heading */
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    flex-direction: row;
+        justify-content: space-evenly;
+    left: 15px;
+}
+#clockdiv > div {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 3px;
+    background: #afc9d4;
+    display: inline-block;
+    
+   
+}
+#clockdiv div > span {
+    padding: 15px;
+    border-radius: 3px;
+    background: #53618e;
+    display: inline-block;
+}
+
+/* Style for visible text */
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+
+@media (max-width: 480px) {
+    #clockdiv{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #clockdiv > div{
+        margin: 7px -14px;
+      
+        padding: 2px;
+        padding-right: 9px;
+    }
+ 
+    #clockdiv div > span {
+     
+        border-radius: 3px;
+        background: #000000;
+        display: inline-block;
+    }
+ 
+    #clockdiv .smalltext{
+  margin-right: 12px;
+  font-size: small;
+  color: #000000;
+  font-weight: 700;
+    }
+
+}
+
+
+

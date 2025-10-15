@@ -1,0 +1,408 @@
+.keyperson{
+
+    text-align: center;
+    margin-left: 100px;
+
+}
+.keyperson h1{
+    font-size:400%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(17, 214, 220);
+}
+
+
+  
+ .sk h1 {
+    font-size: 10vmin;
+    color: rgb(251, 0, 255);
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin: 1rem 0 1rem 2rem;
+    text-align: center;
+    
+    
+  }
+  
+  /* Typewriter effect 1 */
+  @keyframes typing {
+    0.0000%, 27.3488% { content: ""; }
+    1.1395%, 26.2093% { content: " M"; }
+    2.2791%, 25.0698% { content: "M."; }
+    3.4186%, 23.9302% { content: "M.E"; }
+    4.5581%, 22.7907% { content: "M.E,"; }
+    5.6977%, 21.6512% { content: "M.E,P"; }
+    6.8372%, 20.5116% { content: "M.E,Ph"; }
+    7.9767%, 19.3721% { content: "M.E,Ph."; }
+    9.1163%, 18.2326% { content: "M.E,Ph.D"; }
+
+
+        
+    
+    
+  
+    54.6977%, 75.2093% { content: ""; }
+    55.8372%, 74.0698% { content: "H"; }
+    56.9767%, 72.9302% { content: "HOD"; }
+    58.1163%, 71.7907% { content: "HOD of"; }
+    59.2558%, 70.6512% { content: "HOD of E"; }
+    60.3953%, 69.5116% { content: "HOD of EE"; }
+    61.5349%, 68.3721% { content: "HOD of EEE"; }
+  
+    78.6279%, 96.8605% { content: ""; }
+    79.7674%, 95.7209% { content: "Assi"; }
+    80.9070%, 94.5814% { content: "Assistant"; }
+    82.0465%, 93.4419% { content: "Assistant pro"; }
+    83.1860%, 92.3023% { content: "Assistant profe"; }
+    84.3256%, 91.1628% { content: "Assistant professor"; }
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  .typewriter {
+    --caret: currentcolor;
+  }
+  
+  .typewriter::before {
+    content: "";
+    animation: typing 14s infinite;
+  }
+  
+  .typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+  }
+  
+  .typewriter.thick::after {
+    border-right: 1ch solid var(--caret);
+  }
+  
+  .typewriter.nocaret::after {
+    border-right: 0;
+  }
+  
+  
+  @media (prefers-reduced-motion) {
+    .typewriter::after {
+      animation: none;
+    }
+    
+    @keyframes sequencePopup {
+      0%, 100% { content: "M.E,Ph.D"; }
+      25% { content: "writer"; }
+      50% { content: "reader"; }
+      75% { content: "human"; }
+    }
+  
+    .typewriter::before {
+      content: "M.E,Ph.D";
+      animation: sequencePopup 12s linear infinite;
+    }
+  }
+  
+  /**/
+  
+  @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+  
+  
+  .data{
+    margin-top: 30px;
+     
+     margin-left: 700px;
+   }
+  
+  
+  .data h1 {
+    position: relative;
+    font-family: 'Exo';
+    font-size: 4em;
+    margin: 0;
+    transform: skew(-15deg);
+    letter-spacing: 0.03em;
+    
+  
+        
+    }
+    
+   .data span:first-child {
+      display: block;
+      text-shadow: 0 0 0.3em #8ba2d0, 0 0 0.1em rgba(0, 0, 0, 0.251),  0 0 5em #165ff3 palevioletred;
+      -webkit-text-stroke: 0.01em rgba(black, 0.5);
+    }
+    
+    .data span:last-child {
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-image: linear-gradient(#dde3e9 25%, #f0f2f4 35%, white 100%, #f4f3f5 50%, #f5f0f9 60%, #efe8ec 75%);
+      -webkit-text-stroke: 0.01em #94a0b9;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+.data2{
+ margin-top: 30px;
+  
+  margin-left: 700px;
+}
+  
+
+.data2 h1 {
+  position: relative;
+  font-family: 'Exo';
+  font-size: 4em;
+  margin: 0;
+  transform: skew(-15deg);
+  letter-spacing: 0.03em;
+  
+
+      
+  }
+  
+ .data2 span:first-child {
+    display: block;
+    text-shadow: 0 0 0.3em #8ba2d0, 0 0 0.1em rgba(0, 0, 0, 0.251),  0 0 5em #165ff3 palevioletred;
+    -webkit-text-stroke: 0.01em rgba(black, 0.5);
+  }
+  
+  .data2 span:last-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(#dde3e9 25%, #f0f2f4 35%, white 100%, #f4f3f5 50%, #f5f0f9 60%, #efe8ec 75%);
+    -webkit-text-stroke: 0.01em #94a0b9;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.data2{
+margin-top: 30px;
+
+margin-left: 700px;
+}
+  
+.keyperson2{
+
+  text-align: center;
+  margin-left: 100px;
+
+}
+.keyperson2 h1{
+  font-size:400%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(155, 68, 255);
+  margin-top: 130px;
+} 
+
+
+
+.hi {
+  margin: 0px;
+  padding: 0px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.hi .container {
+ 
+  margin: auto;
+  
+}
+
+.hi span {
+  height: 300px;
+  width: 300px;
+  background-image: url("https://dl.dropbox.com/s/r2s8s2r17wi0xm6/flame.png?dl=0");
+  margin-left: 200px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fire 6s   infinite;
+}
+
+.hi h1 {
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+}
+
+@keyframes fire {
+  0% {
+    background-position: 0% -50%;
+  }
+  100% {
+    background-position: 0% -25%;
+  }
+}
+
+.data3{
+  margin-top: 30px;
+  
+   margin-left: 700px;
+ }
+   
+ 
+ .data3 h1 {
+   position: relative;
+   font-family: 'Exo';
+   font-size: 4em;
+   margin: 0;
+   transform: skew(-15deg);
+   letter-spacing: 0.03em;
+   
+   margin-bottom: 30px;
+       
+   }
+   
+  .data3 span:first-child {
+     display: block;
+     text-shadow: 0 0 0.1em #8ba2d0, 0 0 0.1em rgba(0, 0, 0, 0.251),  0 0 5em #165ff3;
+     -webkit-text-stroke: 0.01em rgba(black, 0.5);
+   }
+   
+   .data3 span:last-child {
+     position: absolute;
+     left: 0;
+     top: 0;
+     background-image: linear-gradient(#032d50 25%, #00a1ef 35%, white 50%, #20125f 50%, #8313e7 60%, #ff61af 85%);
+     -webkit-text-stroke: 0.01em #94a0b9;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+   }
+
+  
+
+
+
+ 
+@media (max-width: 480px) {
+
+
+  .keyperson{
+
+    text-align: center;
+    margin-left:0px;
+   text-align: start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.keyperson h1{
+    font-size:35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(17, 214, 220);
+    white-space: nowrap;
+}
+
+.sk h1 {
+  font-size: 9vmin;
+  color: rgb(251, 0, 255);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  margin: 1rem 0 1rem 0rem;
+  text-align: start;
+  
+  
+}
+
+
+.hi span {
+  height: 300px;
+  width: 300px;
+  background-image: url("https://dl.dropbox.com/s/r2s8s2r17wi0xm6/flame.png?dl=0");
+  margin-left: 1px;
+  margin-right: 1px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fire 6s   infinite;
+}
+
+.hi h1 {
+  color: #fff;
+  font-size: 37px;
+  white-space: nowrap;
+}
+
+
+.data3{
+  margin-top: 30px;
+  white-space: nowrap;
+   margin-left: 10px;
+   
+ }
+   
+ 
+ .data3 h1 {
+   position: relative;
+   font-family: 'Exo';
+   font-size: 27px;
+   margin: 0;
+   transform: skew(-15deg);
+   letter-spacing: 0.03em;
+   
+   margin-bottom: 30px;
+       
+   }
+   
+
+   .data{
+    margin-top: 30px;
+    
+     margin-left: 10px;
+     
+   }
+     
+   
+   .data h1 {
+     position: relative;
+     font-family: 'Exo';
+     font-size: 35px;
+     margin: 0;
+     transform: skew(-15deg);
+     letter-spacing: 0.03em;
+     
+     margin-bottom: 30px;
+         
+     }
+
+
+     .data2{
+      margin-top: 30px;
+      
+       margin-left: 10px;
+       
+     }
+       
+     
+     .data2 h1 {
+       position: relative;
+       font-family: 'Exo';
+       font-size: 35px;
+       margin: 0;
+       transform: skew(-15deg);
+       letter-spacing: 0.03em;
+       
+       margin-bottom: 30px;
+           
+       }
+ 
+     .keyperson2{
+
+      text-align: center;
+      margin-left:0px;
+     text-align: start;
+      margin-top: 30px;
+      margin-bottom: 30px;
+  
+  }
+  .keyperson2 h1{
+      font-size:35px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgb(17, 214, 220);
+      white-space: nowrap;
+  }
+   
+}
